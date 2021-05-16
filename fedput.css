@@ -1,0 +1,157 @@
+/*
+---------------------------------------------
+Body Formatting: Begin
+---------------------------------------------
+*/
+
+dgr1 { 
+ font-family: "Times New Roman", Times, serif;
+ font-weight: normal;
+ }
+
+hr {
+width: 100%;
+height: 5px;
+margin-left: auto;
+margin-right: auto;
+background-color:green;
+/*background-color:black;*/
+border: 0 none;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/*
+bb {
+ background-color:black;
+)
+*/
+
+trcmain {
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+trcsection {
+  color: black;
+  font-size: 40px;
+}
+
+trcglossword {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.logotext { 
+ color: #FFD700;
+ /*color: green;*/
+ font-family: Helvetica;
+ font-weight: bold; 
+ /*text-shadow: 2px 2px 4px black;*/
+ }
+
+
+a.trcglossword:hover,  a.trcglossword:visited,  {
+  text-decoration:none;
+}
+
+p.bodyline {
+   line-height: 1.8;
+  }
+
+p.bodylinelarge {
+   line-height: 2.1;
+  }
+
+body {
+  margin-top:0px;
+  margin-left:10px;
+  margin-right:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  animation: fadeInAnimation ease 1.5s; 
+  animation-iteration-count: 1; 
+  <!-- animation-fill-mode: forwards;  -->
+  animation-fill-mode: both;
+  }
+
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+
+
+photocredit { font-family: Arial, Helvetica, sans-serif; font-size: small; }
+
+.hfcolor {
+   background-color: #F8F8F8;
+}
+
+/*
+---------------------------------------------
+Body Formatting: End
+---------------------------------------------
+*/
+
+
+.glossbuttonbackground {
+  line-height: 2.5;
+  /* padding-top: 6px; */
+  margin-top:    0px;
+  margin-bottom: 10px;
+  margin-right:  10px;
+  margin-left:   15px;
+}
+
+.glossbackground {
+  /*background: #f0ead6;*/
+  /* background: #20B2AA; */#90ee90
+  
+  background: #E6DEDC;
+  
+  line-height: 1.5;
+  padding-top: 6px;
+}
+
+.glossbackground:hover {
+  background: #F5F5F5;
+  line-height: 1.5;
+}
+
+.glossbackground:after {
+ 
+    display: block;
+ 
+    line-height: 40%;
+    white-space: pre;
+    content: "\A";
+    
+    /*border-bottom: 1px dotted #D3D3D3;*/
+    border-bottom: 1px dotted 	#BEBEBE;
+  }
+
+.glossary_index {
+  background: #C0C0C0;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+
+.glossary_index:after {
+ 
+    display: block;
+ 
+    line-height: 40%;
+    /*white-space: pre;*/
+    content: "\A";
+    
+    /*border-bottom: 1px dotted #D3D3D3;*/
+    border-bottom: 1px dotted 	#BEBEBE;
+  }
