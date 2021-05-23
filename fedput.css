@@ -4,6 +4,26 @@ Body Formatting: Begin
 ---------------------------------------------
 */
 
+  .MyTitleText {
+/*      background-color: #90ee90; */
+        background-color:	#F0F0F0;
+        
+        border-style: solid;
+        border-left:   1px solid black;
+        border-top:    1px solid black;
+        border-right:  3px solid green;
+        border-bottom: 1px solid green;
+    }
+
+  .MyAboutText {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-left:   1px solid black;
+        border-top:    1px solid black;
+        border-right:  3px solid green;
+        border-bottom: 3px solid green;
+    }
+
 dgr1 { 
  font-family: "Times New Roman", Times, serif;
  font-weight: normal;
