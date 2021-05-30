@@ -4,23 +4,49 @@ Body Formatting: Begin
 ---------------------------------------------
 */
 
-  .MyTitleText {
-/*      background-color: #90ee90; */
-        background-color:	#F0F0F0;
-        
+.glossary_index {
+  background: #C0C0C0;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+
+.logotext { 
+ color: #FFD700;
+ /*color: green;*/
+ font-family: Helvetica;
+ font-weight: bold; 
+ /*text-shadow: 2px 2px 4px black;*/
+ }
+ 
+ 
+ nav  #logo { /*font-size: large;*/
+              font-size: 30px;
+ 	      display: block;
+              padding: 0;
+              width: 100%;
+              text-align: center;
+              float: none;
+              color: green;
+              text-shadow: 2px 2px 2px grey;
+	}
+ 
+ 
+
+  .MyTitleText {      
         border-style: solid;
-        border-left:   1px solid black;
-        border-top:    1px solid black;
+        border-left:   3px solid green;
+        border-top:    3px solid green;
         border-right:  3px solid green;
-        border-bottom: 1px solid green;
+        border-bottom: 0px solid green;
     }
 
   .MyAboutText {
         background-color: #EEEEEE;
         border-style: solid;
-        border-left:   1px solid black;
-        border-top:    1px solid black;
-        border-right:  3px solid green;
+        border-left:   0px solid green;
+        border-top:    3px solid green;
+        border-right:  0px solid green;
         border-bottom: 3px solid green;
     }
 
@@ -107,7 +133,6 @@ body {
             } 
         } 
 
-
 photocredit { font-family: Arial, Helvetica, sans-serif; font-size: small; }
 
 .hfcolor {
@@ -175,3 +200,64 @@ Body Formatting: End
     /*border-bottom: 1px dotted #D3D3D3;*/
     border-bottom: 1px dotted 	#BEBEBE;
   }
+  
+.button {
+  text-align: center;
+  background-color: platinum; ; 
+  border-radius: 10px;
+}
+
+.button1 {
+  width: 47%;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/*
+.disabled {
+  background-color: green; 
+  border: 2px solid #4CAF50;
+  opacity: 0.6;
+  cursor: not-allowed;
+  border-radius: 10px;
+}
+*/
+.disabled_full_width_button {
+  cursor: not-allowed;
+  width: 96%;
+}
+
+.full_width_button {
+  width: 99%;
+    border-radius: 10px;
+}
+
+.full_width_button:hover {
+  font-weight: bold;
+   border-radius: 10px;
+}
+  
+.max_width_button {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.max_width_button:hover {
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.advance2letter {
+  width: 100px;
+  border-radius: 12px;
+}
+
+.advance2letter:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: gold;
+}
