@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Fed Put</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./fedput.css?version=TRCVERSIONPLACEHOLDER">
-<link rel="stylesheet" href="">
+ <meta charset="UTF-8">
+ <title>Fed Put</title>
+ <link rel="canonical"  href="https://fedput.com/" />
+ <meta name="viewport"  content="width=device-width,initial-scale=1">
+ <meta name="keywords"  content="Fed Put" />
+ <link rel="stylesheet" type="text/css" href="./fedput.css?version=TRCVERSIONPLACEHOLDER">
 </head>
 <body>
 
 <div class="MyTitleText">
 <br>
-<nav><div class="logotext" id="logo">Fed Put</div></nav>
-
-<center>Markets can stay irrational longer than you can stay solvent. <span><dgr1>&#8224;<dgr1></span></center>
-<br>
+<nav><div class="logotext" id="logo"><h1>Fed Put<h1></div></nav>
+<span class="adage">Markets can stay irrational longer than you can stay solvent.<span><dgr1>&#8224;<dgr1></span></span>
 </div>
+<br>
 
-<div class="MyAboutText">
-<left><h2>About</h2></left>
+<input type="radio" name="tabs" id="tab1" checked />
+<label for="tab1">About</label>
+
+<input type="radio" name="tabs" id="tab2" />
+<label for="tab2">Glossary</label>
+
+<input type="radio" name="tabs" id="tab3" />
+<label for="tab3">Attribution</label>
+
+<div class="tab content1">
 <p class="bodyline" style="margin-left:2px;margin-right:30px;margin-top:5px";>
 <b>
 This website is most very definitely <b>NOT</b> part of any governmental body.
@@ -34,11 +42,7 @@ During the Covid19 era, the term "Fed Put" became even more relevant.
 <br>
 This website <b>is</b> a spin-off of <a href="https://therationalconsumer.com">therationalconsumer.com</a>.
 <br>
-Whether the popularity of this site proves to be more like <a href="https://en.wikipedia.org/wiki/Laverne_%26_Shirley">Laverne and Shirley</a> or more like <a href="https://en.wikipedia.org/wiki/Joanie_Loves_Chachi">Joanie Loves Chachi</a> is ultimately in your collective hands.
-<br>
-I make absolutely no claim to having any original ideas.
-<br>
-I would like to think I may have summarized some concepts better than others have, but even that claim may prove to be baseless vanity.
+Whether the popularity of this site proves to be more like "Laverne and Shirley" or more like "Joanie Loves Chachi" is ultimately in your collective hands.
 <br>
 Given the fear that this information might be misused, I was initially reluctant to launch this site.
 <br>
@@ -46,11 +50,13 @@ However, seeing people not merely follow but purchase meme stocks such as Gamest
 <br>
 If you believe that you or anyone has some strategy that will allow you to consistently outperform the overall market, I implore you to proceed with extreme caution.
 <br>
+<hr>
+<br>
 <span><dgr1>&#8224;<dgr1></span> The quotation is attributed to economist John Maynard Keynes. I am repeating it here because... well because it bears repeating.
 </p>
 </div>
 
-<center><h2 style="color:green;">Glossary</h2></center>
+<div class="tab content2">
 
 <div class="glossbuttonbackground"></label>
 
@@ -692,5 +698,17 @@ While transaction costs may hurt the fund, the intent is to maximize the presenc
 <button class="button max_width_button" onclick="window.location.href = '#';" >Scroll Back To Top Of Page</button>
 <br>
 <br>
+</div>
+
+<div class="tab content3">
+<p class="bodyline" style="margin-left:2px;margin-right:30px;margin-top:5px";>
+Logic for the creating tabbed layout was taken from the example below.
+<br>
+The focus of this site is not web design, so for now I will not make the link a hyperlink.
+<br>
+https://medium.com/allenhwkim/how-to-build-tabs-only-with-css-844718d7de2f
+</p>
+</div>
+
  </body>
 </html>
